@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    background-color: #1976d2bd;
+}
+.nav__links{
+    display: flex;
+    padding: 1rem 2rem;
+}
+.nav__links li{
+    list-style: none;
+    margin: 0 2.5rem;
+    padding: 5px;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration:underline;
+}
+.nav__links li:hover{
+    color: #95edf9;
+    cursor: pointer;
+}
+.nav__links li:nth-child(1){
+    border-style: dashed;
+}
+.nav__links li:nth-child(2){
+    border-style:groove solid;
+}
+.nav__links li:nth-child(3){
+    border-style:double;
+}
+.nav__links li:nth-child(4){
+    border-style: dotted;
+}
+.nav__links li:nth-child(5){
+    border-style: inset;
+}

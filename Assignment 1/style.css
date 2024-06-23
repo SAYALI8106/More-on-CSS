@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    background-color: #1976d2bd;
+}
+.nav__links{
+    display: flex;
+    padding: 2rem 3rem;
+}
+.nav__links li{
+    list-style: none;
+    margin: 0 2.5rem;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration:underline;
+}
+.nav__links li:hover{
+    color: #95edf9;
+    cursor: pointer;
+}

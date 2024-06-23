@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery{
+    background-image: url('https://media.istockphoto.com/id/578571638/photo/nepal-jungle.webp?b=1&s=170667a&w=0&k=20&c=_D3mUH22hIhOBe3FamNK9zGjyKOm2ONHrJOYCUSkkA0=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 1rem;
+}
+.gallery-images{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+.gallery-images img{
+    width: 25%;
+    border-radius: 100%;
+}
